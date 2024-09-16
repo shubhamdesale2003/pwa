@@ -1,0 +1,119 @@
+@media  (max-width:668px){
+    .header{
+        width: 100%;
+        height: 40vh;
+        background-color: #3c31dd;
+    }
+    .header{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 292px;
+        /* padding-top: 100px; */
+        background: #3c31dd;
+    }
+    .btn{
+        background-color: #3c31dd;
+        color: #ffffff;
+        display: inline-block;
+        border-radius: 5px;
+        padding: .5vw 2vw;
+        margin-bottom: 2vw;
+        margin-left: 51vw;
+        font-size: 7vw;
+    }
+    .curve {
+        position: absolute;
+        height: 250px;
+        width: 100%;
+        bottom: 0;
+        text-align: center;
+        z-index: -1;
+    }
+    
+    .curve::before {
+        content: '';
+        display: block;
+        position: absolute;
+        border-radius: 100% 50%;
+        width: 50%;
+        height: 80%;
+        transform: translate(85%, 60%);
+        background-color: hsl(216deg 45.41% 67.59%);
+        margin-top: -35vw;
+        opacity: 1;
+    }
+    
+    .curve::after {
+        content: '';
+        display: block;
+        position: absolute;
+        border-radius: 100% 50%;
+        width: 68%;
+        height: 88%;
+        background-color: #3c31dd;
+        transform: translate(-7%, 40%);
+        z-index: -1;
+    }
+
+    .follow h4{
+        font-size: 6vw;
+        color: aliceblue;
+        /* background: linear-gradient(rgb(241, 214, 241),rgb(210, 12, 232)); */
+        background-color: #645bd7;
+        padding: .2rem 1rem;
+        border-radius: 5px;
+        z-index: 999999;
+    }
+     .tabs{
+        margin-top: 9.2vw;
+     }
+    .bx{
+        width: 40vw;
+        height: 40vw;      
+    }
+    .n{
+        width: 91vw;
+        height: 31vw;
+        margin-left: 5vw;
+        margin-bottom: 2vw;
+    }
+    .ecom,.java{
+        width: 90vw;
+        height: 70vw;
+        margin-left: 5vw;
+        margin-bottom: 2vw;
+        padding: 1vw;
+    }
+    .ecom p{
+        text-align: center;
+        font-size: 4vw;
+        text-transform: capitalize;
+        font-weight: 400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .ecom a{
+        padding: 2vw 4vw;
+       font-size: 5vw;
+    }
+    .ecom img{
+        width: 100%;
+        height: 60%;
+        margin-bottom: 4vw;
+        margin-top: 1.4vw;
+    }
+
+}
+.left p{
+    font-size: 6vw;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.java-icon,.py-icon{
+    font-size: 7vw;
+}
+.download-btn{
+    font-size: 6vw;
+    font-weight: 700;
+}
